@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f3e8">
+  <meta name="description" content="Portfolio — รวมผลงานสร้างสรรค์และช่องทางติดต่อ Fastwork">
+  <title>Paper & Style — Creative Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar chunky">
+      <a class="brand" href="#home" aria-label="Paper and Style home">
+        <span class="brand-mark">✿</span>
+        <span class="brand-name">PAPER & STYLE</span>
+        <span class="version-tag">PORTFOLIO EDITION</span>
+      </a>
+      <nav class="main-nav" aria-label="เมนูหลัก">
+        <a class="nav-btn" href="#work">✎ ผลงาน</a>
+        <a class="nav-btn pink" href="#about">♡ เกี่ยวกับฉัน</a>
+        <a class="nav-btn mint" href="#fastwork">↗ Fastwork</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="เปิดเมนู" aria-expanded="false">☰</button>
+    </header>
+
+    <main id="home" class="panel chunky">
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="eyebrow">CREATIVE PORTFOLIO · 2026</span>
+          <h1>Small ideas,<br><span>big bright things.</span></h1>
+          <p>พื้นที่รวมผลงาน ไอเดีย และงานสร้างสรรค์ของฉัน<br class="desktop-only"> ในสไตล์พาสเทลย้อนยุคที่เป็นตัวเอง</p>
+          <div class="hero-actions">
+            <a class="button pink" href="#work">ดูผลงานทั้งหมด <span>↓</span></a>
+            <a class="button" href="https://fastwork.com/th/user/pei" target="_blank" rel="noopener noreferrer">ติดต่อผ่าน Fastwork ↗</a>
+          </div>
+          <div class="tiny-note">✦ เลือกการ์ดเพื่อดูรายละเอียดผลงาน</div>
+        </div>
+        <div class="hero-art" aria-label="ภาพตกแต่งพาสเทล">
+          <div class="sun"></div><div class="art-star star-one">✦</div><div class="art-star star-two">✳</div>
+          <div class="art-paper paper-back"></div>
+          <div class="art-paper paper-front">
+            <div class="paper-tape"></div><div class="paper-label">IDEAS<br>IN PROGRESS</div>
+            <div class="paper-doodle">✿</div>
+            <div class="paper-lines"></div>
+          </div>
+          <div class="bubble bubble-one">HELLO!</div><div class="bubble bubble-two">✷</div>
+        </div>
+      </section>
+
+      <section class="stats-grid" aria-label="สรุปเว็บไซต์">
+        <div class="stat-card stat-pink"><span class="stat-label">CREATIVE MOOD</span><strong>100%</strong><small>เติมไอเดียให้ทุกโปรเจกต์</small></div>
+        <div class="stat-card stat-yellow"><span class="stat-label">COLOR PALETTE</span><div class="swatches"><i></i><i></i><i></i><i></i></div><small>Pastel · Retro · Playful</small></div>
+        <div class="stat-card stat-mint"><span class="stat-label">PORTFOLIO</span><strong id="projectCount">06</strong><small>ตัวอย่างการ์ด แก้ไขได้เอง</small></div>
+        <div class="stat-card stat-lilac"><span class="stat-label">LET'S CONNECT</span><strong>↗</strong><small>Fastwork profile</small></div>
+      </section>
+
+      <section id="work" class="work-section">
+        <div class="section-heading">
+          <div><span class="eyebrow">A LITTLE BIT OF EVERYTHING</span><h2>Selected Works <span class="heading-flower">✿</span></h2><p>ตัวอย่างผลงานสามารถเปลี่ยนชื่อ คำอธิบาย และรูปภาพเป็นงานจริงของคุณได้</p></div>
+          <div class="filter-row" role="group" aria-label="กรองผลงาน">
+            <button class="filter active" data-filter="all">ทั้งหมด</button>
+            <button class="filter" data-filter="design">ดีไซน์</button>
+            <button class="filter" data-filter="web">เว็บไซต์</button>
+            <button class="filter" data-filter="creative">ครีเอทีฟ</button>
+          </div>
+        </div>
+
+        <div class="project-grid" id="projectGrid">
+          <button class="project-card" data-category="design" data-title="Pastel Brand Kit" data-description="ตัวอย่างโปรเจกต์ชุดอัตลักษณ์แบรนด์ ใช้สีพาสเทล ฟอนต์ และองค์ประกอบกราฟิกที่เข้ากัน" data-kind="BRANDING · DESIGN">
+            <div class="project-art art-brand"><span class="mini-sticker">NEW!</span><div class="brand-circle">P<span>✿</span></div><div class="art-caption">PASTEL<br>BRAND KIT</div><div class="art-squiggle">〰</div></div>
+            <div class="project-info"><div class="project-meta"><span>BRANDING</span><span>01 / 06</span></div><h3>Pastel Brand Kit</h3><p>สีสันและตัวตนของแบรนด์</p><span class="view-link">ดูรายละเอียด ↗</span></div>
+          </button>
+          <button class="project-card" data-category="web" data-title="Little Shop Website" data-description="ตัวอย่างหน้าเว็บร้านค้าขนาดเล็ก เน้นการจัดวางที่อ่านง่าย ปุ่มชัดเจน และใช้งานได้ทั้งมือถือกับคอมพิวเตอร์" data-kind="WEB DESIGN · UI">
+            <div class="project-art art-web"><div class="browser-bar"><i></i><i></i><i></i></div><div class="web-sun"></div><div class="web-title">hello,<br>little shop!</div><div class="web-button">SHOP NOW</div><div class="web-plant">♧</div></div>
+            <div class="project-info"><div class="project-meta"><span>WEB DESIGN</span><span>02 / 06</span></div><h3>Little Shop Website</h3><p>เว็บไซต์ร้านค้าโทนอบอุ่น</p><span class="view-link">ดูรายละเอียด ↗</span></div>
+          </button>
+          <button class="project-card" data-category="creative" data-title="Daily Doodle Series" data-description="ชุดภาพวาดและไอเดียประจำวัน สำหรับใช้เป็นโพสต์ โปสเตอร์ หรือของตกแต่งดิจิทัล" data-kind="ILLUSTRATION · CREATIVE">
+            <div class="project-art art-doodle"><span class="doodle-sun">☼</span><span class="doodle-flower">✿</span><span class="doodle-heart">♥</span><span class="doodle-text">MAKE<br>IT FUN!</span><span class="doodle-star">✦</span></div>
+            <div class="project-info"><div class="project-meta"><span>ILLUSTRATION</span><span>03 / 06</span></div><h3>Daily Doodle Series</h3><p>ภาพวาดเล็ก ๆ เติมความสดใส</p><span class="view-link">ดูรายละเอียด ↗</span></div>
+          </button>
+          <button class="project-card" data-category="design" data-title="Social Media Pack" data-description="ตัวอย่างเทมเพลตโพสต์สำหรับโซเชียลมีเดีย ออกแบบให้มีระบบสีและรูปแบบที่นำไปใช้ต่อได้" data-kind="SOCIAL · GRAPHIC">
+            <div class="project-art art-social"><div class="social-tile tile-a">GOOD<br>THINGS<br>TAKE TIME.</div><div class="social-tile tile-b">♡</div><div class="social-tile tile-c">SUNNY<br>DAY</div></div>
+            <div class="project-info"><div class="project-meta"><span>GRAPHIC</span><span>04 / 06</span></div><h3>Social Media Pack</h3><p>ชุดโพสต์สำหรับแบรนด์</p><span class="view-link">ดูรายละเอียด ↗</span></div>
+          </button>
+          <button class="project-card" data-category="web" data-title="Personal Dashboard" data-description="ตัวอย่างแดชบอร์ดส่วนตัว จัดข้อมูลเป็นการ์ดสีพาสเทล พร้อมกราฟและส่วนสรุปที่ดูง่าย" data-kind="DASHBOARD · UI">
+            <div class="project-art art-dashboard"><div class="dash-top">MY SPACE ✿</div><div class="dash-cards"><i></i><i></i><i></i></div><div class="dash-chart"><b></b><b></b><b></b><b></b><b></b></div></div>
+            <div class="project-info"><div class="project-meta"><span>UI DESIGN</span><span>05 / 06</span></div><h3>Personal Dashboard</h3><p>แดชบอร์ดข้อมูลแบบเป็นมิตร</p><span class="view-link">ดูรายละเอียด ↗</span></div>
+          </button>
+          <button class="project-card" data-category="creative" data-title="Packaging Concept" data-description="แนวคิดบรรจุภัณฑ์จำลอง ใช้รูปทรงเรียบง่าย สีอ่อน และรายละเอียดเล็ก ๆ เพื่อสร้างเอกลักษณ์" data-kind="PACKAGING · CONCEPT">
+            <div class="project-art art-package"><div class="package-box"><span>soft<br>things</span><i>✿</i></div><div class="package-bottle"></div><div class="package-leaf">♧</div></div>
+            <div class="project-info"><div class="project-meta"><span>CONCEPT</span><span>06 / 06</span></div><h3>Packaging Concept</h3><p>แนวคิดแพ็กเกจจิงพาสเทล</p><span class="view-link">ดูรายละเอียด ↗</span></div>
+          </button>
+        </div>
+        <p class="demo-warning">หมายเหตุ: ภาพและชื่อผลงานทั้ง 6 รายการเป็นตัวอย่างตกแต่ง ไม่ใช่ผลงานจริงของเจ้าของโปรไฟล์</p>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="about-card">
+          <div class="about-icon">☺</div>
+          <div><span class="eyebrow">A LITTLE INTRODUCTION</span><h2>Hi, nice to meet you!</h2><p>ฉันชอบเปลี่ยนไอเดียให้กลายเป็นสิ่งที่มองเห็นได้ เว็บไซต์นี้เป็นพื้นที่รวมผลงานและโปรเจกต์ที่อยากแบ่งปัน หากสนใจร่วมงาน สามารถติดต่อผ่าน Fastwork ได้เลย</p></div>
+        </div>
+        <div class="about-side"><span class="side-star">✳</span><strong>Made with<br>curiosity & care.</strong><span>✦ ✿ ✦</span></div>
+      </section>
+
+      <section id="fastwork" class="fastwork-section">
+        <div class="fastwork-copy"><span class="eyebrow">LET'S MAKE SOMETHING</span><h2>Have a project in mind?</h2><p>ไปดูโปรไฟล์และรายละเอียดบริการของฉันบน Fastwork</p><a class="button dark-button" href="https://fastwork.com/th/user/pei" target="_blank" rel="noopener noreferrer">เปิดโปรไฟล์ Fastwork ↗</a></div>
+        <div class="embed-area">
+          <div class="embed-heading"><span>FASTWORK PROFILE PREVIEW</span><span class="embed-status"><i></i> ทดลองแสดงในหน้านี้</span></div>
+          <iframe title="Fastwork profile preview" src="https://fastwork.com/th/user/pei" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          <div class="embed-fallback"><strong>หากพื้นที่นี้ไม่แสดงโปรไฟล์</strong><p>เว็บไซต์ Fastwork อาจไม่อนุญาตให้ฝังหน้าเว็บใน iframe ซึ่งเป็นข้อจำกัดจากเว็บไซต์ปลายทาง</p><a href="https://fastwork.com/th/user/pei" target="_blank" rel="noopener noreferrer">เปิด Fastwork ในแท็บใหม่ ↗</a></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><span>✿ PAPER & STYLE</span><span>Retro pastel portfolio · Made with care © 2026</span><a href="#home">กลับขึ้นด้านบน ↑</a></footer>
+  </div>
+
+  <dialog id="projectDialog" class="project-dialog">
+    <button class="dialog-close" id="dialogClose" aria-label="ปิด">×</button>
+    <div class="dialog-art" id="dialogArt"></div>
+    <div class="dialog-content"><span class="eyebrow" id="dialogKind"></span><h2 id="dialogTitle"></h2><p id="dialogDescription"></p><p class="dialog-note">เปลี่ยนข้อมูลตัวอย่างนี้เป็นรายละเอียดผลงานจริงของคุณได้ในไฟล์ index.html</p><a class="button pink" href="https://fastwork.com/th/user/pei" target="_blank" rel="noopener noreferrer">สอบถามงานผ่าน Fastwork ↗</a></div>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
